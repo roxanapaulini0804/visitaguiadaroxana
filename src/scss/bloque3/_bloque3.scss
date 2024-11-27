@@ -577,3 +577,72 @@
         font-size: 1.4rem;
     }
 }
+
+.bloqueCampus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.bloqueCampusContent {
+    text-align: center;
+}
+
+.bloqueCampusImage {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    object-fit: cover; 
+}
+
+.bloqueCampusTitle {
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    color: #000000; 
+}
+
+.bloqueCampusTitle span {
+    font-size: 2.5rem;
+    font-weight: 700; 
+}
+
+.bloqueCampusArrowsWrapper {
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px; 
+}
+
+.bloqueCampusArrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.flechas-repetidas-wrapper {
+    width: 150%;
+    height: 40px; 
+    background-image: url('https://lp.cayetano.edu.pe/wp-content/uploads/2024/11/flecha.webp'); 
+    background-repeat: repeat-x; /* Repite las flechas horizontalmente */
+    background-size: contain; /* Asegura que las flechas no se deformen */
+    background-position: center; /* Centra las flechas si no llenan todo el espacio */
+    margin-top: 10px; /* Espaciado superior si es necesario */
+    
+    
+}
+.linea-horizontal {
+    width: 150%; 
+    height: 2px;
+    background-color: #000;
+    margin-top: 10px; 
+    margin-left: 0; 
+    margin-right: 0; 
+  }
